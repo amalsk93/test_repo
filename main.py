@@ -9,6 +9,11 @@ class PerformNumberOperations:
         self.b = second_num
 
     def divide_two_numbers(self):
+        """
+        Function to divide 2 numbers
+        :return: returns the quotient if divisor is non zero else returns inf
+        :rtype: float
+        """
         if self.b != 0:
             c = self.a / self.b
             print("The quotient is:", c)
