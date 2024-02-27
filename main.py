@@ -19,7 +19,7 @@ class PerformNumberOperations:
             print("The quotient is:", c)
             return c
         else:
-            print("Division by zero error")
+            print("Division by Zero error")
             return np.inf
 
 
